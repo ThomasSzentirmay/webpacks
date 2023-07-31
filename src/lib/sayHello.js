@@ -1,3 +1,5 @@
+import '../styles/about.css';
+
 function sayHello() {
     alert('Hello');
 }
