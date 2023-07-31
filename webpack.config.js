@@ -14,6 +14,7 @@ module.exports = {
             title: 'webpack example',
             template: './src/main.html'
         }),
+        new MiniCssExtractPlugin()
     ],
     module: {
         rules: [
