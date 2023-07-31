@@ -1,1 +1,3 @@
-console.log(document.body);
+import sayHello from './lib/sayHello';
+
+sayHello();
