@@ -46,7 +46,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _lib
   \*******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   outputLogo: () => (/* binding */ outputLogo)\n/* harmony export */ });\n/* harmony import */ var _assets_images_mixmate_logo_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/images/mixmate-logo.png */ \"./src/assets/images/mixmate-logo.png\");\n\r\n\r\nfunction outputLogo() {\r\n    const outputDiv = document.querySelector('output');\r\n\r\n    outputDiv.innerHTML = `<img src=\"logo\">`;\r\n}\n\n//# sourceURL=webpack://webpack_overview/./src/lib/outputLogo.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   outputLogo: () => (/* binding */ outputLogo)\n/* harmony export */ });\n/* harmony import */ var _assets_images_mixmate_logo_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/images/mixmate-logo.png */ \"./src/assets/images/mixmate-logo.png\");\n\r\n\r\nfunction outputLogo() {\r\n    const outputDiv = document.querySelector('.output');\r\n\r\n    outputDiv.innerHTML = `<img src=\"${_assets_images_mixmate_logo_png__WEBPACK_IMPORTED_MODULE_0__}\">`;\r\n}\n\n//# sourceURL=webpack://webpack_overview/./src/lib/outputLogo.js?");
 
 /***/ }),
 
